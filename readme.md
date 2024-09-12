@@ -1,8 +1,49 @@
-# Faculty-Subject-Allocation-Management-System-
- In Faculty Subject Allocation Management System we use PHP and Mysql database. 
- This is the project which keep records of Teachers where teachers can enter priority to the subjects they prefer to teach. This data is sent to the hod who allots subjects to the faculty. 
- Faculty Subject Allocation Management System has four module i.e. admin, faculty, hod and users.
+# SD-3101 Faculty Subject Allocation Management System
 
+![alt text](image-2.png)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage Instructions](#usage-instructions)
+- [Project Structure](#project-structure)
+- [Contributors](#contributors)
+- [Chagelog](#changelog)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
+
+---
+
+## Introduction
+    In Faculty Subject Allocation Management System we use PHP and Mysql database. 
+    This is the project which keep records of Teachers where teachers can enter priority to the subjects they prefer to teach. This data is sent to the hod who allots subjects to the faculty. 
+    Faculty Subject Allocation Management System has four module i.e. admin, faculty, hod and users.
+
+## Project Overview
+    The Faculty-Subject Allocation Management System is designed to streamline the process of assigning subjects to faculty members in educational institutions. Built using PHP and MySQL, the system enables efficient management of teachers' preferences for subjects, allowing the Head of Department (HOD) to allocate subjects based on those preferences. The system consists of four key modules: Admin, Faculty, HOD, and Users.
+
+Background/Context:
+    The project addresses the challenge of manually managing subject allocations in schools and colleges, aiming to automate and optimize this process for administrators.
+
+Target Audience/Users:
+    - Admin: Manages teachers, HODs, and subjects.
+    - HOD: Allocates subjects to faculty.
+    - Faculty: Submits preferences for subjects.
+    - Users: Can search for teachers based on subjects.
+
+Real-World Applications and Impact:
+    This system reduces administrative burden, enhances fairness in subject allocation, and improves communication between faculty and administration. It can be  applied in schools, colleges, and universities to ensure that subject assignments are aligned with faculty expertise and preferences.
+
+## Objectives
+    - Develop a solution for streamlining the subject allocation process by automating faculty preferences and HOD assignments.
+    - Implement features to allow faculty to prioritize subjects and HODs to allocate them efficiently based on these preferences.
+    - Test and validate the accuracy, security (using MD5 encryption), and usability of the system for admins, faculty, and HODs.
+
+## Features
 Admin Module
 1.	Dashboard: In this section admin can briefly view total number of subjects and total number of teachers.
 2.	Subjects : In this section, admin can manage the Subjects (add/update).
@@ -53,7 +94,96 @@ How to run the Faculty-Subject-Allocation-Management-System (TRMS) Project
 
 Credential for admin panel :
 Username: admin
-Password: Test@123
+Password: 12345678
 
-Credentials for faculty and HOD panel : Will be known adding teacher or HOD by the admin.
+## Technologies Used
+    - Programming Languages: PHP
+    - Frameworks/Libraries: None (pure PHP implementation)
+    - Databases: MySQL
+    - Other Tools: XAMPP (for local server setup), PHPMyAdmin (for database management)
+    - Security: MD5 encryption for password handling
+
+## Setup and Installation
+Step-by-step instructions for setting up the project locally.
+ - cloned the repository using git bash
+ - copied repository folder to the htdocs folder in Xammp
+ - imported the SQL File in MyphpAdmin
+ - type http://localhost/FacultySubjectAllocationManagementSystem/FacultySubjectAllocationManagementSystem/trms/index.php in my browser
+
+## Usage Instructions
+    -   Access the Application:
+            After setup, open your browser and go to http://localhost/trms.
+
+    -   Admin Login:
+            Use the credentials:
+            Username: admin
+            Password: Test@123
+
+    -   Faculty/HOD Login:
+            Admin must create accounts for faculty and HOD. Use the provided login details to access their respective dashboards.
+
+    -   Database Management:
+            The MySQL database (trms) is accessible via PHPMyAdmin at http://localhost/phpmyadmin. Here, you can manage teacher, subject, and HOD data.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+## Project Structure
+.
+└── FacultySubjectAllocationManagementSystem/
+    ├── mysqldump/
+    │   └── trms.sql
+    ├── trms/
+    │   ├── admin
+    │   ├── css
+    │   ├── faculty
+    │   ├── Hod
+    │   ├── img
+    │   ├── includes
+    │   └── js
+    └── readme.md
+
+## Contributors
+List all the team members involved in the project. Include their roles and responsibilities:
+
+- **[John Christopher L. Nueve]**: Lead Developer, Backend Developer
+- **[Lance Lorenz Batocabe]**: Frontend Developer, UI/UX Designer
+- **Gerald Villaran**: Project Manager, Tester
+## Project Timeline
+
+Outline the project timeline, including milestones or deliverables. Example:
+
+- **Week 1-2**: Research and project planning.
+- **Week 3-5**: Design and setup.
+- **Week 6-10**: Implementation.
+- **Week 11-12**: Testing and debugging.
+- **Week 13-14**: Final presentation and documentation.
+
+## Changelog
+
+### [Version 1.0.0] - 2024-09-07
+- Initial release of the project.
+- Added basic functionality for [Feature 1], [Feature 2], and [Feature 3].
+
+### [Version 1.1.0] - 2024-09-14
+- Improved user interface for [Feature 1].
+- Fixed bugs related to [Feature 2].
+- Updated project documentation with setup instructions.
+
+### [Version 1.2.0] - 2024-09-21
+- Added new functionality for [Feature 4].
+- Refactored codebase for better performance.
+- Added unit tests for [Feature 3] and [Feature 4].
+
+
+## Acknowledgments
+
+Acknowledge any resources, mentors, or external tools that helped in completing the project.
+
+This project was built from [Original Project Name](https://github.com/Nithyabussety/FacultySubjectAllocationManagementSystem), created by [Nithyabussety]. You can view the original repository [here](https://github.com/Nithyabussety/FacultySubjectAllocationManagementSystem).
+
+## License
+(no license found in the original repo)
+Specify the project's license. For starters, adapt the license of the original repository.
 
