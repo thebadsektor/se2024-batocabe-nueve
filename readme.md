@@ -130,8 +130,8 @@ Step-by-step instructions for setting up the project locally.
 ![alt text](image-1.png)
 
 ## Project Structure
-.
-└── FacultySubjectAllocationManagementSystem/
+```
+FacultySubjectAllocationManagementSystem/
     ├── mysqldump/
     │   └── trms.sql
     ├── trms/
@@ -143,7 +143,7 @@ Step-by-step instructions for setting up the project locally.
     │   ├── includes
     │   └── js
     └── readme.md
-
+```
 ## Contributors
 List all the team members involved in the project. Include their roles and responsibilities:
 
