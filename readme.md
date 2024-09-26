@@ -105,9 +105,9 @@ Password: 12345678
 
 ## Setup and Installation
 Step-by-step instructions for setting up the project locally.
- - cloned the repository using git bash
- - copied repository folder to the htdocs folder in Xammp
- - imported the SQL File in MyphpAdmin
+ - clone the repository using git bash
+ - copy repository folder to the htdocs folder in Xammp
+ - import the SQL File in MyphpAdmin
 
 ## Usage Instructions
     -   Access the Application:
