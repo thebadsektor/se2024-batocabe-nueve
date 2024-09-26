@@ -108,7 +108,7 @@ Step-by-step instructions for setting up the project locally.
  - cloned the repository using git bash
  - copied repository folder to the htdocs folder in Xammp
  - imported the SQL File in MyphpAdmin
- - type http://localhost/FacultySubjectAllocationManagementSystem/FacultySubjectAllocationManagementSystem/trms/index.php in my browser
+ - type http://localhost/FacultySubjectAllocationManagementSystem/FacultySubjectAllocationManagementSystem/trms/index.php in your browser
 
 ## Usage Instructions
     -   Access the Application:
