@@ -125,7 +125,7 @@ How to run the Faculty-Subject-Allocation-Management-System (TRMS) Project
 
 ## Project Structure
 ```
-FacultySubjectAllocationManagementSystem/
+    .
     ├── mysqldump/
     │   └── trms.sql
     ├── trms/
