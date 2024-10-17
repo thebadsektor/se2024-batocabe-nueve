@@ -162,6 +162,9 @@ Outline the project timeline, including milestones or deliverables. Example:
         - Simple Messaging System
         - Resources link
         - Printable Reports
+     
+        - Feature to Implement: Dockerize Project
+        - Completion Date: 27/10/2024
   
 - **Week 3-5**: Design and setup.
 - **Week 6-10**: Implementation.
